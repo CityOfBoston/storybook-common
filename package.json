@@ -1,5 +1,5 @@
 {
-  "name": "@cityofboston/storybook-common",
+  "name": "storybook-common",
   "version": "0.0.0",
   "description": "Common configuration for our projects’ Storybooks",
   "private": true,
