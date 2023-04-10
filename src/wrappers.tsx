@@ -2,7 +2,7 @@ import React from 'react';
 
 type Children = React.ReactNode;
 
-export function CenterWrapper( props: { children: Children } ): JSX.Element {
+export function centerWrapper( props: { children: Children } ): JSX.Element {
   return (
     <div style={CENTER_STYLING}>
       { props.children }    
@@ -10,7 +10,7 @@ export function CenterWrapper( props: { children: Children } ): JSX.Element {
   );
 }
 
-export function NarrowWrapper( props: { children: Children } ): JSX.Element {
+export function narrowWrapper( props: { children: Children } ): JSX.Element {
   return (
     <div style={NARROW_STYLING}>
       { props.children }    

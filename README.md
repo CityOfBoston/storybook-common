@@ -12,7 +12,7 @@
 3. Add the following packages to the project’s `package.json`:
     ```
     "devDependencies": {
-        "@cityofboston/storybook-common": "^0.0.0",
+        "storybook-common": "^0.0.0",
         "@percy/storybook": "^3.0.2",
         "@storybook/addon-actions": "5.0.8",
         "@storybook/addon-storyshots": "5.0.8",
