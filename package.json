@@ -1,5 +1,5 @@
 {
-  "name": "@cityofboston/storybook-common",
+  "name": "storybook-common",
   "version": "0.0.0",
   "description": "Common configuration for our projects’ Storybooks",
   "private": true,
@@ -14,21 +14,24 @@
     "storybook": "start-storybook -p 9001 -s static"
   },
   "dependencies": {
-    "core-js": "^3.19.3"
+    "@babel/core": "^7.21.4",
+    "babel-loader": "^9.1.2",
+    "core-js": "^3.19.3",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@babel/preset-react": "^7.0.0",
-    "@cityofboston/config-babel": "^0.0.0",
-    "@cityofboston/config-typescript": "^0.0.0",
     "@emotion/core": "^10.0.10",
     "@storybook/react": "^5.0.10",
     "@types/jest": "24.x.x",
     "@types/node": "^8.0.0",
     "@types/react": "^16.8.5",
     "@types/storybook__react": "^4.0.1",
+    "config-babel": "Cityofboston/config-babel#main",
+    "config-typescript": "Cityofboston/config-typescript#main",
     "emotion-theming": "^10.0.10",
     "jest": "^24.8.0",
-    "react": "16.8.5",
+    "react": "^18.2.0",
     "rimraf": "^2.6.2",
     "tsc-watch": "^1.0.26",
     "typescript": "^4.4.2"
